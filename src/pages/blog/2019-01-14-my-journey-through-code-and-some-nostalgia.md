@@ -23,14 +23,14 @@ A few years latter, I received my first working computer… it was an HC made in
 One would connect this computer to a monitor or, if you didn’t have one like me, to the TV set.
 
 Also, it didn’t have a floppy disk drive. Instead, you would connect it to an audio tape player. The software was recorded on tapes, and you would play the tape like you would do when listening to music, and wait until the software would load (sometimes 1/2 hour). It also made a “nice” sound…if you remember the one made by the dial-up modems:
-
+[![The sound of the internet on dial-up modems](/img/sound-of-internet-modem.PNG )](https://youtu.be/gsNaR6FRuO0 "The sound of the internet")
 
 Of course, we didn’t have internet connection then.
 
 While we used the HC mostly for games, I remember being very proud of the shapes I could generate in the **[BASIC Programming Language](https://en.wikipedia.org/wiki/Sinclair_BASIC)**. That was the programming language used by the HC. Here you can learn the **[BASIC language](http://www.worldofspectrum.org/ZXBasicManual/)**. I used mostly DRAW, CIRCLE and  PLOT commands, usually by trial and error. That was all.
 
 Fast forward a few more years, when, after immigrating to Israel and entering high school, my parents bought me a real PC. Even though in school we studied some **[Assembly language](https://en.wikipedia.org/wiki/Assembly_language)** and **[Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal)**, I wasn’t really fascinated by programming. I used my PC mostly for games, browsing the internet (on dial-up connections), MS Office, *Microsoft Encarta Encyclopedia* and chats.
-
+![Assembly](/img/assembly.png "Assembly")
 ![Turbo Pascal](/img/turbo_pascal.jpg "Turbo Pascal")
 ![mIRC](/img/mirc.jpg "mIRC Internet Relay Chat")
 
