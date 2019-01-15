@@ -1,0 +1,132 @@
+
+
+#intro {padding-top:40px;padding-bottom:25px;color: #6E6E6E;text-align:center;}
+#portofolio {padding-top:25px;background-size:cover;color: #6E6E6E; }
+#contactme {padding-top:25px;padding-bottom:330px;background-size:cover;color: #6E6E6E;}
+#introphoto {
+display:block;
+margin:0 auto;
+max-width:100%;
+height:13em;
+}
+#title {
+padding-top:40px;
+}
+#name-motto {
+background-size:cover;
+margin-bottom:-40px;
+}
+#socialcontact {
+width:50%;
+margin:auto;
+}
+body {
+position: relative;
+background-image:url("https://res.cloudinary.com/dg45lvfuu/image/upload/v1465762936/goals1-smaller-background_yixyls.jpg");background-size:cover;
+padding:0;
+
+max-width:1000px;
+text-align:center;
+margin:auto !important;
+
+}
+h1 {
+font-family: Ultra, Monospace;
+font-size: 40px;
+text-align:center;
+padding-top:5px;
+}
+h2 {
+text-align:center;
+padding-bottom:40px;
+}
+form {
+width:50%;
+margin:auto;
+}
+button[type=submit] {
+display:block;
+width:100px;
+margin: 10px auto auto auto;
+border-radius:10px;
+}
+input[type="text"]{
+border-radius:10px;
+}
+input[type="email"]{
+border-radius:10px;
+}
+input[type="number"]{
+border-radius:10px;
+}
+.imagewithtext {
+position: relative; 
+width:81%;
+left: 0; 
+top: 0;
+height:auto;
+border-radius:10px;
+border-color:blue;
+border-style:solid;
+border-width:2px;
+margin:5px;
+box-shadow: 5px 5px 3px #888888;
+}
+.textonimage {
+font-family: Ultra, Monospace;
+ position: absolute;
+left:27%;
+  top: 40px;
+text-align:center;
+width:30%;
+font-size: 2em;
+color:blue;
+}
+.examplesite {
+width:80%;
+height:auto;
+
+border-radius:10px;
+border-color:blue;
+border-style:solid;
+border-width:2px;
+margin:5px;
+box-shadow: 5px 5px 3px #888888;
+}
+.textcenter {
+text-align:center;
+margin-top:50px;
+}
+.textcenter2{
+text-align:center;
+}
+
+
+.textcenter3{
+width:100%;
+padding-left:10%;
+}
+.arrow {
+border-style:outset;
+border-width:2px;
+border-color:blue;
+border-radius:5px;
+display:inline;
+position:fixed;
+right:50px;
+bottom:50px;
+background-color:white;
+padding:2px;
+    }
+.arrow:hover{
+  text-decoration:none;
+}
+
+/*not working - center intro columns:
+.textcenter3place{
+position:absolute;
+left:30%;
+width:50%;
+top: 60px;
+}
+  */

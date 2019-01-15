@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
+    title: 'Ion Varsescu - Portofolio of a Web Developer',
+    description: 'I am a web developer. Here you can read my blog and check my sample projects.',
+  },
+  /* 
+  siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
     description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
-  },
+  }, */
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
