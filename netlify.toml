@@ -10,3 +10,9 @@
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "https://affectionate-yalow-1e0141.netlify.com/*"
+  to = "https://www.ionvarsescu.tk/portofolio/:splat"
+  status = 301
+  force = true
