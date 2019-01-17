@@ -13,6 +13,6 @@
 
 [[redirects]]
 from = "https://portofolio-ion-varsescu.netlify.com/*"
-to = "/portofolio/:splat"
+to = "https://www.ionvarsescu.tk/portofolio/:splat"
 status = 200
-force = false
+force = true
