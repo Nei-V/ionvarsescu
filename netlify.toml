@@ -11,8 +11,8 @@
   status = 301
   force = true
 
-  [[redirects]]
-  from = "https://affectionate-yalow-1e0141.netlify.com/*"
-  to = "https://www.ionvarsescu.tk/portofolio/:splat"
-  status = 200
-  force = false
+[[redirects]]
+from = "https://affectionate-yalow-1e0141.netlify.com/portofolio/index.html"
+to = "https://www.ionvarsescu.tk/portofolio/index.html"
+status = 200
+force = false
