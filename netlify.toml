@@ -12,7 +12,7 @@
   force = true
 
 [[redirects]]
-from = "https://affectionate-yalow-1e0141.netlify.com/portofolio/"
+from = "https://portofolio-ion-varsescu.netlify.com/*"
 to = "/portofolio/:splat"
 status = 200
 force = false
