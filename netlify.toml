@@ -15,4 +15,4 @@
   from = "https://affectionate-yalow-1e0141.netlify.com/*"
   to = "https://www.ionvarsescu.tk/portofolio/:splat"
   status = 200
-  force = true
+  force = false
