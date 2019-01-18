@@ -10,21 +10,3 @@
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
   force = true
-
-[[redirects]]
-from = "https://portofolio-ion-varsescu.netlify.com/index.html"
-to = "https://www.ionvarsescu.tk/portofolio/index.html"
-status = 301
-force = true
-
-[[redirects]]
-from = "https://portofolio-ion-varsescu.netlify.com/index.html"
-to = "https://www.ionvarsescu.tk/portofolio/index.html"
-status = 200
-force = true
-
-[[redirects]]
-from = "https://portofolio-ion-varsescu.netlify.com/index.html"
-to = "https://www.ionvarsescu.tk/portofolio/index.html"
-status = 200
-force = false
