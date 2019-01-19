@@ -10,3 +10,10 @@
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
   force = true
+
+
+[[redirects]]
+  from = "https://portofolio-ion-varsescu.netlify.com/*"
+  to = "https://www.ionvarsescu.tk/portofolio/:splat"
+  status = 200
+  force = true
