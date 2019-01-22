@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: New Repository on GitHub Using Visual Studio Code (VS Code)
 date: 2018-04-13T15:04:10.000Z
-description: This is a short guide that will help you setting up and publishing to a new repository on GitHub.
+description: This is a short guide to set up and publish to a new repository on GitHub.
 tags:
   - command line
   - git
