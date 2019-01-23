@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Using Netlify Redirect (301) and Rewrite (200)
-date: 2018-04-13T15:04:10.000Z
+date: 2019-01-19T15:04:10.000Z
 description: This guide will help you set simple redirects and rewrites in Netlify in a few simple scenarios.
 tags:
   - Netlify
@@ -15,7 +15,9 @@ tags:
 
 I've spent a lot of hours these days trying to do something I thought was trivial. Hopefully it will save you some time.
 
-As you probably know, Netlify is great. It continuously deploys your Github repository to a default subdomain (for example https://ionvarsescu.netlify.com) or to a custom domain (for example https://www.ionvarsescu.tk). In order to avoid SEO issues of duplicate content (because both sites will be live), you can do a redirect (301) from the subdomain to the domain. There are probably more ways to do it, I'll show you the simplest one I found.
+As you probably know, [Netlify](https://www.netlify.com/)
+<a href="https://www.netlify.com/" target="_blank">Netlify</a>
+ is great. It continuously deploys your Github repository to a default subdomain (for example https://ionvarsescu.netlify.com) or to a custom domain (for example https://www.ionvarsescu.tk). In order to avoid SEO issues of duplicate content (because both sites will be live), you can do a redirect (301) from the subdomain to the domain. There are probably more ways to do it, I'll show you the simplest one I found.
 
 But you know what's even better? Netlify can deploy a site for each repository you want. Therefore, I was happy to use them for another repository I have (https://portofolio-ion-varsescu.netlify.com). But know I have 2 different websites! While it's very simple to have both your sites on the same domain, I didn't find manage to do it by myself, and Google and Stack Overflow didn't help either. In the end, I found two different solutions for the problem - one that I found on the net while the second one was offered by Netlify support (which is excellent!) .
 
@@ -36,7 +38,6 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
 ![netlify.toml in the root](/img/folder-structure-for-toml-file.PNG "Put netlify.toml at the root of you main site repo")
 
 2. Type this:
-
 <code><br>
 [build]<br>
   publish = "public"<br>
@@ -98,20 +99,20 @@ For this we'll use the Netlify code 200 for rewrite.
 2. Type this:
 <code><br>
 [build]<br>
-  publish = "public"<br>
-  command = "npm run build"<br>
+publish = "public"<br>
+command = "npm run build"<br>
 [build.environment]<br>
-  YARN_VERSION = "1.9.4"<br>
-  YARN_FLAGS = "--no-ignore-optional"
+YARN_VERSION = "1.9.4"<br>
+YARN_FLAGS = "--no-ignore-optional"
 </code><br>
 <code>
 [[redirects]]<br>
 </code>
 <code>
-  from = "/portofolio/*"<br>
-  to = "https://portofolio-ion-varsescu.netlify.com/:splat"<br>
-  status = 200<br>
-  force = true<br>
+from = "/portofolio/*"<br>
+to = "https://portofolio-ion-varsescu.netlify.com/:splat"<br>
+status = 200<br>
+force = true<br>
 </code>
 
 Here we use status "200" - rewrite - not "310". One thing that was not intuitive at first is that the "from" should be where you want your secondary site to be. The visitor is taken behind the scenes FROM the https://www.ionvarsescu.tk/portofolio/ TO the original site https://portofolio-ion-varsescu.netlify.com.
