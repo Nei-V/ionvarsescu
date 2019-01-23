@@ -36,7 +36,7 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
 ![netlify.toml in the root](/img/folder-structure-for-toml-file.PNG "Put netlify.toml at the root of you main site repo")
 
 2. Type this:
-```
+<code>
 [build]
   publish = "public"
   command = "npm run build"
@@ -44,12 +44,12 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-`[[redirects]]`
-`from = "https://ionvarsescu.netlify.com/*"
+[[redirects]]
+  from = "https://ionvarsescu.netlify.com/*"
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
-  force = true`
-```
+  force = true
+</code>
 
 Save and push your changes to Github. Netlify will take it from there.
 
