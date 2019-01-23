@@ -44,9 +44,9 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
 [build.environment]<br>
   YARN_VERSION = "1.9.4"<br>
   YARN_FLAGS = "--no-ignore-optional"
-</code>
+</code><br>
 <code>
-[[redirects]]
+[[redirects]]<br>
 </code>
 <code>
   from = "https://ionvarsescu.netlify.com/*"<br>
@@ -96,21 +96,23 @@ For this we'll use the Netlify code 200 for rewrite.
 1. Open the file netlify.toml of your site (https://www.ionvarsescu.tk) or add this file to the root of your repository if it doesn't exist (same as when doing a 301 redirect).
 
 2. Type this:
-```
-[build]
-  publish = "public"
-  command = "npm run build"
-[build.environment]
-  YARN_VERSION = "1.9.4"
+<code><br>
+[build]<br>
+  publish = "public"<br>
+  command = "npm run build"<br>
+[build.environment]<br>
+  YARN_VERSION = "1.9.4"<br>
   YARN_FLAGS = "--no-ignore-optional"
-
-
-[[redirects]]
-  from = "/portofolio/*"
-  to = "https://portofolio-ion-varsescu.netlify.com/:splat"
-  status = 200
-  force = true
-```
+</code><br>
+<code>
+[[redirects]]<br>
+</code>
+<code>
+  from = "/portofolio/*"<br>
+  to = "https://portofolio-ion-varsescu.netlify.com/:splat"<br>
+  status = 200<br>
+  force = true<br>
+</code>
 
 Here we use status "200" - rewrite - not "310". One thing that was not intuitive at first is that the "from" should be where you want your secondary site to be. The visitor is taken behind the scenes FROM the https://www.ionvarsescu.tk/portofolio/ TO the original site https://portofolio-ion-varsescu.netlify.com.
 
