@@ -45,11 +45,10 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
   YARN_FLAGS = "--no-ignore-optional"
 
 `[[redirects]]`
-
-  from = "https://ionvarsescu.netlify.com/*"
+`from = "https://ionvarsescu.netlify.com/*"
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
-  force = true
+  force = true`
 ```
 
 Save and push your changes to Github. Netlify will take it from there.
