@@ -17,3 +17,9 @@
   to = "https://portofolio-ion-varsescu.netlify.com/:splat"
   status = 200
   force = true
+
+  [[redirects]]
+  from = "https://portofolio-ion-varsescu.netlify.com/*"
+  to = "https://portofolio.ionvarsescu.tk/:splat"
+  status = 301
+  force = true
