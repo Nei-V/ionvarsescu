@@ -16,7 +16,7 @@ tags:
 I've spent a lot of hours these days trying to do something I thought was trivial. Hopefully it will save you some time.
 
 As you probably know, <a href="https://www.netlify.com/" target="_blank">Netlify</a>
- is great. It continuously deploys your Github repository to a default subdomain (for example https://ionvarsescu.netlify.com) or to a custom domain (for example <a href="https://www.ionvarsescu.tk" target="_blank">https://www.ionvarsescu.tk). In order to avoid SEO issues of duplicate content (because both sites will be live), you can do a redirect (301) from the subdomain to the domain. There are probably more ways to do it, I'll show you the simplest one I found.
+ is great. It continuously deploys your Github repository to a default subdomain (for example https://ionvarsescu.netlify.com) or to a custom domain (for example <a href="https://www.ionvarsescu.tk" target="_blank">https://www.ionvarsescu.tk)</a>. In order to avoid SEO issues of duplicate content (because both sites will be live), you can do a redirect (301) from the subdomain to the domain. There are probably more ways to do it, I'll show you the simplest one I found.
 
 But you know what's even better? Netlify can deploy a site for each repository you want. Therefore, I was happy to use them for another repository I have (https://portofolio-ion-varsescu.netlify.com). But now I have 2 different websites! While it's very simple to have both your sites on the same domain, at first I didn't find a way to do it by myself, and Google and Stack Overflow didn't help either. In the end, I found two different solutions for the problem - one that I found on the net while the second one was offered by Netlify support (which is excellent!) .
 
