@@ -43,7 +43,11 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+</code>
+<code>
 [[redirects]]
+</code>
+<code>
   from = "https://ionvarsescu.netlify.com/*"
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
