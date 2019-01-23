@@ -44,10 +44,8 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-`\[ \[ redirects _]_ _\]_`
-`[test]`
-`[[test]]`
-`\``[test]`
+`[[redirects]]`
+
   from = "https://ionvarsescu.netlify.com/*"
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
