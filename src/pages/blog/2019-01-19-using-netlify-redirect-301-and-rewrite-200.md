@@ -44,7 +44,10 @@ What we want is to redirect visitors that type this address  https://ionvarsescu
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-\[ \[ redirects \] \]
+`\[ \[ redirects _]_ _\]_`
+`[test]`
+`[[test]]`
+`\``[test]`
   from = "https://ionvarsescu.netlify.com/*"
   to = "https://www.ionvarsescu.tk/:splat"
   status = 301
@@ -98,6 +101,7 @@ For this we'll use the Netlify code 200 for rewrite.
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+
 
 [[redirects]]
   from = "/portofolio/*"
