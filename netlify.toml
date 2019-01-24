@@ -11,6 +11,11 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://portofolio-ion-varsescu.netlify.com/*"
+  to = "https://portofolio.ionvarsescu.tk/:splat"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/portofolio/*"
@@ -18,8 +23,3 @@
   status = 200
   force = true
 
-  [[redirects]]
-  from = "https://portofolio-ion-varsescu.netlify.com/*"
-  to = "https://portofolio.ionvarsescu.tk/:splat"
-  status = 301
-  force = true
