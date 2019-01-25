@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/ionvarsesculogo.svg'
-import {withPrefix} from 'gatsby'
+//import {withPrefix} from 'gatsby' - only needed if I need subfolders
 
 const Navbar = class extends React.Component {
 
@@ -59,9 +59,11 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/contact/examples">
           Form Examples
         </Link>
+       {/*  could be used if I wanted a subfolder structure. in this chase I'm using subdomain (it's like an external link for Gatsby.)
         <Link className="navbar-item" to={withPrefix(`/portofolio/`)}>
           Portofolio
-        </Link>
+        </Link> */}
+        <a className="navbar-item" href="https://portofolio.ionvarsescu.tk">Portofolio</a>
       </div>
       <div className="navbar-end has-text-centered">
         <a
