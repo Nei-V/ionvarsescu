@@ -83,6 +83,8 @@ https://portofolio-ion-varsescu.ionvarsescu.tk
 8. Press "Force HTTPS" button (who doesn't want free HTTPS?). Press "Force HTTPS" once again in the pup-up.
 
 9. Do the 301 redirect as shown above - place this code in the secondary project (the one we've just modified) in the netlify.toml file.
+Don't add the [build] and [build.environment] if the secondary site is not using npm (for example I only had an index.html file, a css file and a js file, so this is all the code
+I had to write in the netlify.toml file)
 
 <code>
 [[redirects]]
@@ -90,11 +92,7 @@ https://portofolio-ion-varsescu.ionvarsescu.tk
   to = "https://portofolio.ionvarsescu.tk/:splat"<br>
   status = 301<br>
   force = true
-
 </code>
-
-
-
 
 # 3. How to Combine 2 Github Repositories in a Singe site - Solution 2 - Using Rewrite.
 
@@ -130,9 +128,9 @@ Here we use status "200" - rewrite - not "310". One thing that isn't intuitive a
 
 
 I'm not sure yet what's the difference between the two methods, I'll try to find out.
-UPDATE - It's still not clear what is the technical difference between the two options, but the support staff at Netlify assured me that the impact on SEO is very small, so you can chose either.
+UPDATE - It's still not clear to me what is the technical difference between the two options, but the support staff at Netlify assured me that the impact on SEO is very small, so you can chose either.
 Most search engine should know that it's the same site.
-There are some articles on the net comparing the two choices with most stating that you should mostly use subdomains instead of folder paths when there isn't a direct relations between the main site
+There are some articles on the net comparing the two choices with most stating that you should mostly use subdomains instead of folder paths when there isn't a direct relation between the main site
 and the secondary one (for example two lines of business).
 
 Again, thanks to the Neltify support team for the help.
