@@ -47,33 +47,37 @@ const Navbar = class extends React.Component {
       </div>
       <div id="navMenu" className="navbar-menu">
       <div className="navbar-start has-text-centered">
+      <a className="navbar-item" href="https://portofolio.ionvarsescu.tk">Portofolio</a>
+      <Link className="navbar-item" to="/contact">
+          Contact
+        </Link>
+{/* 
+        The next links are only for experiments - can be accessed directly
         <Link className="navbar-item" to="/about">
           About
         </Link>
         <Link className="navbar-item" to="/products">
           Products
         </Link>
-        <Link className="navbar-item" to="/contact">
-          Contact
-        </Link>
         <Link className="navbar-item" to="/contact/examples">
           Form Examples
-        </Link>
+        </Link> */}
        {/*  could be used if I wanted a subfolder structure. in this chase I'm using subdomain (it's like an external link for Gatsby.)
         <Link className="navbar-item" to={withPrefix(`/portofolio/`)}>
           Portofolio
         </Link> */}
-        <a className="navbar-item" href="https://portofolio.ionvarsescu.tk">Portofolio</a>
+        
       </div>
       <div className="navbar-end has-text-centered">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/Nei-V"
+          //href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"  - link to the boilerplate
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+            <img src={github} alt="Ion Varsescu Github" />
           </span>
         </a>
       </div>
