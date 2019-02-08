@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ion Varsescu - Portofolio of a Web Developer',
     description: 'I am a web developer. Here you can read my blog and check my sample projects.',
+    siteUrl: `https://www.ionvarsescu.tk`,
   },
   /* 
   siteMetadata: {
@@ -33,6 +34,7 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
