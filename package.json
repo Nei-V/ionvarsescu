@@ -58,6 +58,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "acorn": "^6.1.0",
+    "acorn-dynamic-import": "^4.0.0",
     "prettier": "^1.15.3",
     "rimraf": "^2.6.2"
   }
