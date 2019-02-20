@@ -48,6 +48,7 @@ const Navbar = class extends React.Component {
       <div id="navMenu" className="navbar-menu">
       <div className="navbar-start has-text-centered">
       <a className="navbar-item" href="https://portofolio.ionvarsescu.tk" aria-labelledby="Ion Varsescu's Portofolio">Portofolio</a>
+      <a className="navbar-item" href="https://github.com/Nei-V" aria-labelledby="Ion Varsescu's Github" target="_blank" rel="noopener noreferrer">Github</a>
       <Link className="navbar-item" to="/contact">
           Contact
         </Link>
