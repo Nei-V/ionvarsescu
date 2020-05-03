@@ -5,11 +5,11 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-[[redirects]]
-  from = "https://zen-booth-7b30d6.netlify.com/*"
-  to = "https://www.ionvarsescu.tk/:splat"
-  status = 301
-  force = true
+#[[redirects]]
+#  from = "https://zen-booth-7b30d6.netlify.com/*"
+#  to = "https://www.ionvarsescu.tk/:splat"
+#  status = 301
+#  force = true
 
 
 # not needed in this project:

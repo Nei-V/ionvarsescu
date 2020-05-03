@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ion Varsescu - Portofolio of a Web Developer',
     description: 'I am a web developer. Here you can read my blog and check my sample projects.',
-    siteUrl: `https://www.ionvarsescu.tk`,
+    siteUrl: `https://ion-varsescu-portfolio.netlify.app/`,
   },
   /* 
   siteMetadata: {
