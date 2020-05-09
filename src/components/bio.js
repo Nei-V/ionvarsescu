@@ -57,10 +57,10 @@ const Bio = () => {
         }}
       />
       <p style={{ marginTop: `auto`, marginBottom: `auto` }}>
-        Written by <strong>{author.name}</strong> from{" "}
-        <a href="https://22boxes.com" target="blank">
-          22Boxes.com
-        </a>{" "}
+        Written by <strong>{author.name}</strong> {/* from{" "}
+        <a href="https://ion-varsescu-portfolio.netlify.app/" target="blank">
+          Ion Varsescu
+        </a>{" "} */}
         <br></br>
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>

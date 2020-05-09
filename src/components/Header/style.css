@@ -7,11 +7,18 @@
     text-decoration: none;
     color: inherit;
 }
-.logo-img{
+/* .logo-img{
     margin-right: 20px;
     margin-bottom: 0;
     min-width: 50;
     height: 70px;
+} */
+.logo-img{
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    min-width: 50;
+    width: 88px;
 }
 .header-nav{
     float: right;
@@ -30,6 +37,7 @@
                 margin-right: 20px;
 }
 .li-h1{
+   
     font-size: 20px;
     font-weight: 300;
                   margin-bottom: 0;
@@ -39,4 +47,12 @@
     box-shadow: none;
                     text-decoration: none;
                     color: inherit;
+}
+
+.li-h1>a{
+    text-decoration: none !important;
+    text-decoration-line:none !important;
+    text-decoration-style:none !important;
+    text-decoration-color:#ffffff !important;
+    box-shadow: 0 0px 0 0 currentColor;
 }

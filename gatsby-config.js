@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `22Boxes Template Uno`,
+    title: `Ion Varsescu's Blog`,
     author: {
-      name: `Gagandeep Singh`,
-      summary: `22boxes.com`,
+      name: `Ion Varsescu`,
+      summary: `Software developer`,
     },
-    description: `22Boxes Gatsby template Uno`,
-    siteUrl: `https://22boxesgatsbyuno.netlify.com/`,
+    description: `Ion Varsescu's Blog`,
+    siteUrl: `https://ion-varsescu-blog.netlify.app/`,
     social: {
-      twitter: `twentytwoboxes`,
+      twitter: `IonVcoding`,
     },
   },
   plugins: [
@@ -67,13 +67,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `22Boxes Gatsby Uno`,
-        short_name: `22Boxes.com`,
+        name: `Ion Varsescu Blog`,
+        short_name: `Ion Varsescu Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/uno-favicon.png`,
+        icon: `content/assets/ionvarsesculogo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

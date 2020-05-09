@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "./logo.svg"
+import logo from "./ionvarsesculogo.svg"
 import { Link } from "gatsby"
 import "./style.css"
 
@@ -25,7 +25,7 @@ class Header extends React.Component {
     return (
       <div className="header-main">
         <Link className="logo-link" to={`/`}>
-          <img src={logo} alt="22 Boxes logo" className="logo-img" />
+          <img src={logo} alt="Ion Varsescu logo" className="logo-img" />
         </Link>
 
         <div className="header-nav">
@@ -37,11 +37,21 @@ class Header extends React.Component {
                 </Link>
               </h1>
             </li>
-            <li className="nav-li">
+            {/* <li className="nav-li">
               <h1 className="li-h1" style={workLinkStyle}>
                 <Link className="li-link" to={`/work`}>
                   Work
                 </Link>
+              </h1>
+            </li> */}
+            <li className="nav-li">
+              <h1 className="li-h1" style={workLinkStyle}>
+                <a href="https://ion-varsescu-portfolio.netlify.app/">Portofolio</a>
+              </h1>
+            </li>
+            <li className="nav-li">
+              <h1 className="li-h1" style={workLinkStyle}>
+              <a className="navbar-item" href="https://github.com/Nei-V" aria-labelledby="Ion Varsescu's Github" target="_blank" rel="noopener noreferrer">Github</a>
               </h1>
             </li>
             <li
