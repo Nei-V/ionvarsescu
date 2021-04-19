@@ -1,7 +1,7 @@
 ---
 template: post
 title: My Journey Through Code and Some Nostalgia
-date: 2018-02-14T23:05:36.413Z
+date: 2019-10-14T23:05:36.413Z
 slug: my-journey-through-code
 description: 'About how I''ve started to code, some history and where I''m now.'
 category: development
