@@ -1,7 +1,7 @@
 ---
 template: post
 title: Using Netlify Redirect (301) and Rewrite (200)
-date: 2019-01-19T15:04:10.000Z
+date: 2020-01-19T15:04:10.000Z
 slug: using-netlify-redirect-301-and-rewrite-200
 description: This guide will help you set simple redirects and rewrites in Netlify in a few simple scenarios.
 category: Netlify
